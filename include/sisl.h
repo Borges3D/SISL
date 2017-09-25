@@ -753,6 +753,10 @@ void GO_API s1611(double [],int,int,double [],int,int,double,double,
 extern
 #endif
 void GO_API s1613(SISLCurve *,double,double **,int *,int *);
+#ifndef  S1613PAR
+extern
+#endif
+void GO_API s1613par(SISLCurve *,double,double **,int *,int *);
 #ifndef S1620
 extern
 #endif
